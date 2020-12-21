@@ -1,0 +1,6 @@
+findCompany: ABCD COrp
+findCompany: HaHaHa Laughing Corp
+listDirectors: James Smith
+listDirectors: Maria Garcia
+CommonDirector: James Smith: Maria Hernandez
+RelatedCompany: ABCD Corp: hahaha laughing CORP

@@ -16,17 +16,34 @@ VIVEK BIRADAR
 VIKRANT SINGH
 ATUL PATIL
 *****************DISPLAY COMPANIES**************************
-Error: Input Director : ABCD COrp is not a director node in the graph
+Error: Input Director : ABCD Corp is not a director node in the graph
 *****************DISPLAY COMPANIES**************************
 Error: Input Director : HaHaHa Laughing Corp is not a director node in the graph
+*****************DISPLAY COMPANIES**************************
+Director name:Maria Garcia
+List of Companies:
+ABCD CORP
+HAHAHA LAUGHING CORP
 *****************DISPLAY DIRECTORS**************************
 Error: Input Company : James Smith is not a company node in the graph
 *****************DISPLAY DIRECTORS**************************
 Error: Input Company : Maria Garcia is not a company node in the graph
+*****************DISPLAY DIRECTORS**************************
+Company name:HaHaHa Laughing Corp
+List of Directors:
+MARIA GARCIA
+MARIA HERNANDEZ
+JUAN CARLOS
+MARCUS CEASER
+SEAN MAXWELL
 *****************FIND COMMON DIRECTORS**************************
 Company A:James Smith
 Company B:Maria Hernandez
 Error: Either CompanyA:James Smith or CompanyB:Maria Hernandez is not a company node in the graph
+*****************FIND COMMON DIRECTORS**************************
+Company A:ABCD COrp
+Company B:HaHaHa Laughing Corp
+Related: Yes,MARIA GARCIA
 *****************FIND RELATED COMPANY**************************
 Company A:ABCD Corp
 Company B:hahaha laughing CORP

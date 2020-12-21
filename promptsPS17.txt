@@ -1,4 +1,4 @@
-findCompany: ABCD COrp
+findCompany: ABCD Corp
 findCompany: HaHaHa Laughing Corp
 findCompany: Maria Garcia
 listDirectors: James Smith

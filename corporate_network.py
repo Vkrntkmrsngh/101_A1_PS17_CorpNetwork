@@ -1,9 +1,16 @@
 import sys
 
+# dump all outs in outputPS17.txt file
 sys.stdout = open("outputPS17.txt", "w")
 
-
 class Node():
+    """
+    This class will be used to create node with name and its type
+
+    Parameters:
+    Returns:
+
+    """
 
     def __init__(self, node_label, type):
         self.node = node_label
@@ -22,10 +29,7 @@ class CorporateNetwork():
     Network assignment.
 
     Parameters:
-        None
-
     Returns:
-        None
     """
     DirectorCompany = []  # list of Node Objects containing companies and directors
     edges = []  # matrix of edges/ associations
@@ -35,12 +39,9 @@ class CorporateNetwork():
         This method prints structure of adjacency list
 
         Parameters:
-            None
-
         Returns:
-            None
-        """
 
+        """
         print("*****************Graph Adjacency List**********************")
 
         for graph_node in self.DirectorCompany:
@@ -66,15 +67,13 @@ class CorporateNetwork():
             print("Error : Node {} does not exist in the graph".format(node))
 
     def displayAll(self):
-        '''
+        """
         This method will display all distinct company names with their count values
 
         Parameters:
-            None
-
         Returns:
-            None
-        '''
+
+        """
 
         print("********************DISPLAY ALL**************************")
         totalcomp = 0
@@ -102,15 +101,15 @@ class CorporateNetwork():
         print(*directorList, sep="\n")
 
     def displayCompanies(self, Director):
-        '''
+        """
         This method will print name of companies associated to given director name
 
         Parameters:
             Director (str) : Name of Director.
 
         Returns:
-            None
-        '''
+
+        """
         print("*****************DISPLAY COMPANIES**************************")
 
         try:
@@ -126,15 +125,15 @@ class CorporateNetwork():
             print("Error : Director {} does not exist in the graph".format(Director))
 
     def displayDirectors(self, Company):
-        '''
+        """
         This method will print name of Diectors associated to given company name
 
         Parameters:
             Company (str) : Name of company.
 
         Returns:
-            None
-        '''
+
+        """
 
         print("*****************DISPLAY DIRECTORS**************************")
 
@@ -159,7 +158,7 @@ class CorporateNetwork():
             CompanyB (str) : Name of second company.
 
         Returns:
-            None
+
         """
 
         print("*****************FIND COMMON DIRECTORS**************************")
@@ -198,7 +197,7 @@ class CorporateNetwork():
             startNode (str) : Node till which traversal has to be done.
 
         Returns:
-            Boolean :
+            Boolean : if node has been found or not
         """
 
         visited_node = []
@@ -231,7 +230,7 @@ class CorporateNetwork():
             CompanyB (str) : Name of second company with which relation has to be found.
 
         Returns:
-            None
+
         """
 
         print("*****************FIND RELATED COMPANY**************************")
@@ -264,7 +263,7 @@ class CorporateNetwork():
         Parameters:
             inputfile (str) : Name of file.
         Returns:
-            None
+
         """
         with open(inputfile, 'r') as fp:
             lines = fp.readlines()

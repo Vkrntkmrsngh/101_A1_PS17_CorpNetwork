@@ -16,7 +16,7 @@ VIVEK BIRADAR
 VIKRANT SINGH
 ATUL PATIL
 *****************DISPLAY COMPANIES**************************
-Error: Input Director : ABCD COrp is not a director node in the graph
+Error: Input Director : ABCD Corp is not a director node in the graph
 *****************DISPLAY COMPANIES**************************
 Error: Input Director : HaHaHa Laughing Corp is not a director node in the graph
 *****************DISPLAY COMPANIES**************************

@@ -62,7 +62,7 @@ class CorporateNetwork():
         try:
             input_node = Node(node, "")
             indx = self.DirectorCompany.index(input_node)
-            return set(self.edges[indx])
+            return self.edges[indx]
         except ValueError as e:
             print("Error : Node {} does not exist in the graph".format(node))
 
